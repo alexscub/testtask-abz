@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/testtask-abz/static/css/main.e1e76cdf.chunk.css",
-    "main.js": "/testtask-abz/static/js/main.d35bf601.chunk.js",
-    "main.js.map": "/testtask-abz/static/js/main.d35bf601.chunk.js.map",
+    "main.css": "/testtask-abz/static/css/main.95e869bf.chunk.css",
+    "main.js": "/testtask-abz/static/js/main.af951c6e.chunk.js",
+    "main.js.map": "/testtask-abz/static/js/main.af951c6e.chunk.js.map",
     "runtime-main.js": "/testtask-abz/static/js/runtime-main.6db82335.js",
     "runtime-main.js.map": "/testtask-abz/static/js/runtime-main.6db82335.js.map",
     "static/css/2.764ccc25.chunk.css": "/testtask-abz/static/css/2.764ccc25.chunk.css",
-    "static/js/2.515a4ed0.chunk.js": "/testtask-abz/static/js/2.515a4ed0.chunk.js",
-    "static/js/2.515a4ed0.chunk.js.map": "/testtask-abz/static/js/2.515a4ed0.chunk.js.map",
+    "static/js/2.6a456056.chunk.js": "/testtask-abz/static/js/2.6a456056.chunk.js",
+    "static/js/2.6a456056.chunk.js.map": "/testtask-abz/static/js/2.6a456056.chunk.js.map",
     "index.html": "/testtask-abz/index.html",
-    "precache-manifest.60019957100232fefa3a5470a5806058.js": "/testtask-abz/precache-manifest.60019957100232fefa3a5470a5806058.js",
+    "precache-manifest.c708ccb6abb75c455ef27c0ac678cfdc.js": "/testtask-abz/precache-manifest.c708ccb6abb75c455ef27c0ac678cfdc.js",
     "service-worker.js": "/testtask-abz/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/testtask-abz/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.e1e76cdf.chunk.css.map": "/testtask-abz/static/css/main.e1e76cdf.chunk.css.map",
-    "static/js/2.515a4ed0.chunk.js.LICENSE": "/testtask-abz/static/js/2.515a4ed0.chunk.js.LICENSE",
+    "static/css/main.95e869bf.chunk.css.map": "/testtask-abz/static/css/main.95e869bf.chunk.css.map",
+    "static/js/2.6a456056.chunk.js.LICENSE": "/testtask-abz/static/js/2.6a456056.chunk.js.LICENSE",
     "static/media/main.css": "/testtask-abz/static/media/OpenSans-Regular.3ed9575d.ttf",
     "static/media/Heading.module.css": "/testtask-abz/static/media/banner-photo.5cf71942.jpg",
     "static/media/logo.svg": "/testtask-abz/static/media/logo.146e2926.svg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.6db82335.js",
     "static/css/2.764ccc25.chunk.css",
-    "static/js/2.515a4ed0.chunk.js",
-    "static/css/main.e1e76cdf.chunk.css",
-    "static/js/main.d35bf601.chunk.js"
+    "static/js/2.6a456056.chunk.js",
+    "static/css/main.95e869bf.chunk.css",
+    "static/js/main.af951c6e.chunk.js"
   ]
 }
