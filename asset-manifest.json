@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/testtask-abz/static/css/main.95e869bf.chunk.css",
-    "main.js": "/testtask-abz/static/js/main.af951c6e.chunk.js",
-    "main.js.map": "/testtask-abz/static/js/main.af951c6e.chunk.js.map",
+    "main.css": "/testtask-abz/static/css/main.cb2b2b7a.chunk.css",
+    "main.js": "/testtask-abz/static/js/main.7947010a.chunk.js",
+    "main.js.map": "/testtask-abz/static/js/main.7947010a.chunk.js.map",
     "runtime-main.js": "/testtask-abz/static/js/runtime-main.6db82335.js",
     "runtime-main.js.map": "/testtask-abz/static/js/runtime-main.6db82335.js.map",
     "static/css/2.764ccc25.chunk.css": "/testtask-abz/static/css/2.764ccc25.chunk.css",
-    "static/js/2.6a456056.chunk.js": "/testtask-abz/static/js/2.6a456056.chunk.js",
-    "static/js/2.6a456056.chunk.js.map": "/testtask-abz/static/js/2.6a456056.chunk.js.map",
+    "static/js/2.d726f9ec.chunk.js": "/testtask-abz/static/js/2.d726f9ec.chunk.js",
+    "static/js/2.d726f9ec.chunk.js.map": "/testtask-abz/static/js/2.d726f9ec.chunk.js.map",
     "index.html": "/testtask-abz/index.html",
-    "precache-manifest.c708ccb6abb75c455ef27c0ac678cfdc.js": "/testtask-abz/precache-manifest.c708ccb6abb75c455ef27c0ac678cfdc.js",
+    "precache-manifest.953d467a0dfd9c6ab92285942ee63de9.js": "/testtask-abz/precache-manifest.953d467a0dfd9c6ab92285942ee63de9.js",
     "service-worker.js": "/testtask-abz/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/testtask-abz/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.95e869bf.chunk.css.map": "/testtask-abz/static/css/main.95e869bf.chunk.css.map",
-    "static/js/2.6a456056.chunk.js.LICENSE": "/testtask-abz/static/js/2.6a456056.chunk.js.LICENSE",
+    "static/css/main.cb2b2b7a.chunk.css.map": "/testtask-abz/static/css/main.cb2b2b7a.chunk.css.map",
+    "static/js/2.d726f9ec.chunk.js.LICENSE": "/testtask-abz/static/js/2.d726f9ec.chunk.js.LICENSE",
+    "static/media/Close.svg": "/testtask-abz/static/media/Close.cff94799.svg",
     "static/media/main.css": "/testtask-abz/static/media/OpenSans-Regular.3ed9575d.ttf",
     "static/media/Heading.module.css": "/testtask-abz/static/media/banner-photo.5cf71942.jpg",
     "static/media/logo.svg": "/testtask-abz/static/media/logo.146e2926.svg",
@@ -24,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.6db82335.js",
     "static/css/2.764ccc25.chunk.css",
-    "static/js/2.6a456056.chunk.js",
-    "static/css/main.95e869bf.chunk.css",
-    "static/js/main.af951c6e.chunk.js"
+    "static/js/2.d726f9ec.chunk.js",
+    "static/css/main.cb2b2b7a.chunk.css",
+    "static/js/main.7947010a.chunk.js"
   ]
 }
