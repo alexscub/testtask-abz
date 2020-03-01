@@ -1,0 +1,15 @@
+.navItem {
+  text-decoration: none;
+  color: #212529;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 0px 15px;
+  cursor: pointer;
+}
+.navItem:hover {
+  color: var(--primary-color);
+}
+
+.navItem:last-child {
+  padding-right: 0px;
+}

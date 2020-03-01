@@ -1,0 +1,56 @@
+.card {
+  width: 216px;
+  margin-bottom: 36px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.name {
+  composes: heading2 from './../../../stylesheet/basicStyles.css';
+}
+
+.photo,
+.name {
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  composes: paragraph from './../../../stylesheet/basicStyles.css';
+}
+
+.name,
+.paragraph {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tooltip::before,
+::after {
+  display: none;
+  font-family: var(--font-stack);
+  font-size: 14px;
+  color: #fefefe;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 58px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    margin-right: 56px;
+    margin-left: 56px;
+    margin-bottom: 58px;
+  }
+}

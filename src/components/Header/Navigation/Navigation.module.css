@@ -1,0 +1,27 @@
+.logoContainer {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 26px;
+}
+.logoContainer img {
+  display: block;
+}
+
+.navItem {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 26px;
+  padding-left: 15px;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.navItem:nth-child(5n) {
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 28px;
+}
+
+.navItem:last-child {
+  margin-bottom: 0;
+}

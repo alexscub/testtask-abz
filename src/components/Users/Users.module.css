@@ -1,0 +1,34 @@
+.users {
+  background-color: var(--bg-color-second);
+  text-align: center;
+}
+
+.title {
+  composes: heading1 from './../../stylesheet/basicStyles.css';
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  composes: paragraph from './../../stylesheet/basicStyles.css';
+  margin-bottom: 36px;
+}
+
+.userslist {
+  list-style: none;
+  /* margin: 0 auto 40px; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .userslist {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .paragraph {
+    margin-bottom: 74px;
+  }
+  .title {
+    margin-bottom: 16px;
+  }
+}
