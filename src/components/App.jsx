@@ -63,7 +63,9 @@ class App extends Component {
       });
       this.loadUsers();
     } catch (err) {
-      throw new Error(err);
+      this.setState({
+        postResult: err.data,
+      });
     }
   };
 

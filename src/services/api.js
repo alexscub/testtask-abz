@@ -34,6 +34,6 @@ export const postUser = async formData => {
     }
     return tokenData;
   } catch (error) {
-    throw new Error(error);
+    return error.response;
   }
 };
