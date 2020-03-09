@@ -5,7 +5,7 @@ const baseURL = 'https://frontend-test-assignment-api.abz.agency/api/v1/';
 export const getUsers = async (page = 1) => {
   try {
     const data = await axios.get(`${baseURL}users?page=${page}&count=6`);
-    return data.data.users;
+    return data.data;
   } catch (error) {
     throw new Error(error);
   }

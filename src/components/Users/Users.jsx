@@ -4,7 +4,7 @@ import UserCard from './UserCard/UserCard';
 import styles from './Users.module.css';
 import Button from '../Shared/Button/Button';
 
-const Users = ({ users = [], loadMoreUsers, id }) => {
+const Users = ({ users = [], loadMoreUsers, id, disable }) => {
   return (
     <section id={id} className={styles.users}>
       <div className="container">
@@ -15,7 +15,7 @@ const Users = ({ users = [], loadMoreUsers, id }) => {
         <ul className={styles.userslist}>
           {users && users.map(user => <UserCard key={user.id} {...user} />)}
         </ul>
-        <Button label="Show more" onClick={loadMoreUsers} />
+        {!disable && <Button label="Show more" onClick={loadMoreUsers} />}
       </div>
     </section>
   );
@@ -31,4 +31,5 @@ Users.propTypes = {
   ),
   id: PropTypes.string.isRequired,
   loadMoreUsers: PropTypes.func.isRequired,
+  disable: PropTypes.bool.isRequired,
 };

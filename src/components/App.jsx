@@ -14,6 +14,7 @@ class App extends Component {
   state = {
     users: null,
     page: 0,
+    totalPages: 0,
     positions: null,
     postResult: null,
   };
@@ -34,8 +35,9 @@ class App extends Component {
     try {
       const users = await getUsers();
       this.setState({
-        users,
-        page: 1,
+        users: users.users,
+        page: users.page,
+        totalPages: users.total_pages,
       });
     } catch (err) {
       throw new Error(err);
@@ -47,8 +49,8 @@ class App extends Component {
       const { page } = this.state;
       const moreUsers = await getUsers(page + 1);
       this.setState(prevState => ({
-        users: [...prevState.users, ...moreUsers],
-        page: prevState.page + 1,
+        users: [...prevState.users, ...moreUsers.users],
+        page: moreUsers.page,
       }));
     } catch (err) {
       throw new Error(err);
@@ -82,7 +84,7 @@ class App extends Component {
   };
 
   render() {
-    const { users, positions, postResult } = this.state;
+    const { users, positions, postResult, page, totalPages } = this.state;
     return (
       <>
         {!!postResult && (
@@ -96,7 +98,12 @@ class App extends Component {
         <main>
           <Heading CTA={this.goToSignUp} id="requirments" />
           <About CTA={this.goToSignUp} id="about" />
-          <Users id="users" users={users} loadMoreUsers={this.loadMoreUsers} />
+          <Users
+            id="users"
+            users={users}
+            loadMoreUsers={this.loadMoreUsers}
+            disable={page === totalPages}
+          />
           <RegistrationForm
             id="CTA"
             postNewUser={this.postNewUser}
